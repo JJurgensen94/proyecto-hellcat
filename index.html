@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--  ENLACE FONTAWESOME (RECURSO ICONOS) -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <!-- ENLACE BOOTSTRAP 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--  ENLACE CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <h1>HELLCAT</h1>
+        </a>
+
+        <button class="navbar-toggler botonHamburguesa" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="d-flex flex-row-reverse">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">MUJERES</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="html/blancomujer.html">Polos Blancos</a></li>
+                  <li><a class="dropdown-item" href="html/negromujer.html">Polos Negros</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">HOMBRES</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="html/blancohombre.html">Polos Blancos</a></li>
+                  <li><a class="dropdown-item" href="html/negrohombre.html">Polos Negros</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="html/ubicacion.html">UBICACION</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="html/contacto.html">CONTACTO</a>
+              </li>
+              <!-- REDES SOCIALES -->
+              <hr class="d-md-none text-black-50">
+              <div class="redes">
+                <ul class="navbar-nav  flex-row flex-wrap text-dark">
+                  <li class="nav-item col-6 col-md-auto px-2">
+                    <a href="https://web.facebook.com/profile.php?id=100056363417522" target="_blank"><img
+                        src="img/facebook.svg" width="45" height="45" alt="facebook px-2"></a>
+                    <small class="d-md-none ms-2">Facebook</small>
+                  </li>
+
+                  <li class="nav-item col-6 col-md-auto px-2">
+                    <a href="https://www.instagram.com/hellcat_shop_peru/" target="_blank"><img src="img/instagram.svg"
+                        width="45" height="45" alt="instagram"></a>
+                    <small class="d-md-none ms-2">Instagram</small>
+                  </li>
+
+                  <li class="nav-item col-6 col-md-auto px-2">
+                    <a href="https://twitter.com" target="_blank"><img src="img/twitter.svg" width="45" height="45"
+                        alt="twitter"></a>
+                    <small class="d-md-none ms-2">Twitter</small>
+                  </li>
+
+                  <li class="nav-item col-6 col-md-auto px-2">
+                    <a href="https://github.com/" target="_blank"><img src="img/github.svg" width="45" height="45"
+                        alt="github"></a>
+                    <small class="d-md-none ms-2">GitHub</small>
+                  </li>
+
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- CARRUSEL -->
+  <br>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/carrusel/pruebaa2.jpg" class="d-block w-100" alt="Slider1">
+        <div class="carousel-caption">
+          <h2 class="textoH2">COMPRA LA COLLECION DE VERANO</h2>
+          <h4 class="textoH4">Colección Oficial HELLCAT SHOP. <br> Se la mejor version de ti mismo.</h4>
+          <a class="btn btn-dark boton" href="html/contacto.html">ACCEDE A LOS DESCUENTOS DE TEMPORADA</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/carrusel/1.jpg" class="d-block w-100" alt="Slider2">
+        <div class="carousel-caption">
+          <h2 class="textoH2">COMPRA LA COLLECION DE VERANO</h2>
+          <h4 class="textoH4">Colección Oficial HELLCAT SHOP. <br> Se la mejor version de ti mismo.</h4>
+          <a class="btn btn-dark boton" href="html/contacto.html">ACCEDE A LOS DESCUENTOS DE TEMPORADA</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/carrusel/101.jpg" class="d-block w-100" alt="Slider3">
+        <div class="carousel-caption">
+          <h2 class="textoH2">COMPRA LA COLLECION DE VERANO</h2>
+          <h4 class="textoH4">Colección Oficial HELLCAT SHOP. <br> Se la mejor version de ti mismo.</h4>
+          <a class="btn btn-dark boton" href="html/contacto.html">ACCEDE A LOS DESCUENTOS DE TEMPORADA</a>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--   MAIN -->
+
+  <main>
+    <!--   POLOS HOMBRES -->
+    <div class="polos">
+      <div class="row">
+        <div class="col-xl-3 col-md-6 col-xs-12 imagenGaleria">
+          <div class="card">
+            <img src="img/hombres/blanco/1p.jpg" class="card-img-top" alt="Polo Blanco H 1">
+            <div class="card-body">
+              <h3 class="card-title">Space</h3>
+              <p>Precio: $29.99</p>
+              <a href="#" class="btn btn-dark">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-xs-12 imagenGaleria">
+          <div class="card">
+            <img src="img/hombres/blanco/14.jpg" class="card-img-top" alt="Polo Blanco H 2">
+            <div class="card-body">
+              <h3 class="card-title">Cat Astronaut</h3>
+              <p>Precio: $30.99</p>
+              <a href="#" class="btn btn-dark">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-xs-12 imagenGaleria">
+          <div class="card">
+            <img src="img/hombres/negro/11.jpg" class="card-img-top" alt="Polo Negro H 1">
+            <div class="card-body">
+              <h3 class="card-title">Samurai</h3>
+              <p>Precio: $30.99</p>
+              <a href="#" class="btn btn-dark">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-xs-12 imagenGaleria">
+          <div class="card">
+            <img src="img/hombres/negro/22.jpg" class="card-img-top" alt="Polo Negro H 2">
+            <div class="card-body">
+              <h3 class="card-title">Medusa</h3>
+              <p>Precio: $31.99</p>
+              <a href="#" class="btn btn-dark">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--    POLOS MUJERES -->
+    <div class="pMujeres">
+      <div class="row">
+        <div class="col-xl-3 col-md-6 col-xs-12 imagenGaleria">
+          <div class="card">
+            <img src="img/mujeres/blanco/33.jpg" class="card-img-top" alt="Polo Blanco M 1">
+            <div class="card-body">
+              <h3 class="card-title">Best Friends</h3>
+              <p>Precio: $29.99</p>
+              <a href="#" class="btn btn-dark">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-xs-12 imagenGaleria">
+          <div class="card">
+            <img src="img/mujeres/blanco/36.jpg" class="card-img-top" alt="Polo Blanco M 2">
+            <div class="card-body">
+              <h3 class="card-title">Sandwich</h3>
+              <p>Precio: $30.99</p>
+              <a href="#" class="btn btn-dark">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-xs-12 imagenGaleria">
+          <div class="card">
+            <img src="img/mujeres/negro/5.jpg" class="card-img-top" alt="Polo Negro M 1">
+            <div class="card-body">
+              <h3 class="card-title">Skull Peace</h3>
+              <p>Precio: $30.99</p>
+              <a href="#" class="btn btn-dark">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-xs-12 imagenGaleria">
+          <div class="card">
+            <img src="img/mujeres/negro/22n.jpg" class="card-img-top" alt="Polo Negro M 2">
+            <div class="card-body">
+              <h3 class="card-title">Panda</h3>
+              <p>Precio: $31.99</p>
+              <a href="#" class="btn btn-dark">Añadir al Carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BARRA DE DESCUENTO -->
+    <div class="descuento mt-5">
+      <p><strong>UNETE A NUESTRO HELLCAT CLUB Y OBTEN UN 20% DE DESCUENTO</strong></p>
+      <a class="btn btn-dark" href="html/contacto.html">
+        ACCEDE A LOS DESCUENTOS DE TEMPORADA
+      </a>
+    </div>
+  </main>
+
+  <!--    FOOTER -->
+  <footer>
+    <div class="pie">
+      <span>HELLCAT</span>
+    </div>
+    <br><br>
+    <!-- ENLACE A REDES SOCIALES -->
+    <div class="redes">
+      <ul class="sociales">
+        <li><a href="https://web.facebook.com/profile.php?id=100056363417522" target="_blank"><img
+              src="img/facebook.svg" width="45" height="45" alt="facebook"></a></li>
+        <li><a href="https://www.instagram.com/hellcat_shop_peru/" target="_blank"><img src="img/instagram.svg"
+              width="45" height="45" alt="instagram"></a></li>
+        <li><a href="https://twitter.com" target="_blank"><img src="img/twitter.svg" width="45" height="45"
+              alt="twitter"></a></li>
+        <li><a href="https://github.com/" target="_blank"><img src="img/github.svg" width="45" height="45"
+              alt="github"></a></li>
+      </ul>
+    </div>
+    <br><br>
+    <div class="derechos">
+      <span><strong>Sitio Web creado por Jorge Jurgensen</strong></span>
+      <br><br>
+      <span><strong>&copy; Todos los derechos reservados</strong></span>
+      <br><br>
+    </div>
+  </footer>
+
+  <!-- SCRIPT BOOTSTRAP 5 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

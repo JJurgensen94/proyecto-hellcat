@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital@1&display=swap');
+
+@font-face {
+  font-family: roadRage;
+  src: url(../fuente/roadRage.otf);
+}
+
+/* HEADER */
+.logotipo {
+  width: 150px;
+}
+
+h1 {
+  display: inline;
+  font-size: 50px;
+  font-family: roadRage;
+  color: black;
+  padding: 15px;
+
+}
+
+.iconos-redes-header {
+  width: 40px;
+  padding: 5px;
+}
+
+.polos {
+  padding-top: 120px;  
+}
+
+
+.botonHamburguesa {
+  height: 5rem;
+  width: 5rem;
+}
+
+/* MEDIAS QUERIES */
+@media (min-width:1400px) {
+  .btn {
+    font-size: 2rem;
+  }
+
+  .carousel-caption h2 h4 {
+    font-size: 3rem;
+  }
+
+  .descuento p {
+    font-size: 20px !important;
+    padding-top: 80px;
+
+  }
+
+  .descuento a {
+    font-size: 20px !important;
+    top: 80px;
+    right: 1000px;
+  }  
+  
+  /* ANIMACION IMAGENES */
+.imagenGaleria {
+  filter: grayscale(50%);
+  transition: all 0.3s ease;
+}
+
+.imagenGaleria:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
+}
+}
+
+@media (min-width:1200px) {
+  .btn {
+    font-size: 2rem;
+  }
+
+  .carousel-caption h2 h4 {
+    font-size: 3rem;
+  }
+
+  .descuento p {
+    font-size: 20px;
+    padding-top: 80px;
+    padding-left: 50px;
+  }
+
+  .descuento a {
+    font-size: 20px;
+    top: 80px;
+    right: 100px;
+    position: absolute;
+  }
+ 
+}
+
+@media (min-width:900px) and (max-width:1199px) {
+  .btn {
+    font-size: 1rem;
+  }
+
+  .carousel-caption h2 h4 {
+    font-size: 2rem;
+  }
+
+  .descuento p {
+    font-size: 18px;
+    padding-top: 80px;
+    padding-left: 10px;
+  }
+
+  .descuento a {
+    font-size: 14px;
+    top: 80px;
+    right: 40px;
+    position: absolute;
+  }
+
+  .polos {
+    padding-top: 40px;
+  }
+
+  .pMujeres {
+    padding-top: 60px;
+  }   
+}
+
+@media (min-width:600px) and (max-width:899px) {
+  .textoH2 {
+    font-size: 24px !important;
+    text-align: center !important;
+    margin-bottom: 10px;
+    margin-top: -30px;
+    color: #1F222A;
+    -webkit-text-stroke: 0.2px white;
+  }
+
+  .textoH4 {
+    font-size: 24px !important;
+    text-align: center !important;
+    margin-bottom: -30px;
+    color: #1F222A;
+    -webkit-text-stroke: 0.2px white;
+  }
+
+  .boton {
+    font-size: 20px !important;
+    text-align: center !important;
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .polos {
+    padding-top: 50px;
+  }
+
+    .descuento p {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 60px;  
+  }
+
+  .descuento a {
+    font-size: 12px;
+    top: 120px;
+    position: absolute;
+    width: 100%;
+    display: block;
+  }  
+}
+
+@media (min-width:350px) and (max-width:599px) {
+  .textoH2 {
+    font-size: 16px !important;
+    text-align: center !important;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    color: #1F222A;
+    -webkit-text-stroke: 0.2px white;
+  }
+
+  .textoH4 {
+    font-size: 16px !important;
+    text-align: center !important;
+    margin-bottom: -30px;
+    color: #1F222A;
+    -webkit-text-stroke: 0.2px white;
+  }
+
+  .boton {
+    font-size: 12px !important;
+    text-align: center !important;
+    width: 100%;
+    display: block;
+    margin-top: 40px;
+  }
+
+  .polos {
+    padding-top: 40px;
+  }
+
+  .pMujeres {
+    padding-top: 60px;
+  }
+
+  .descuento p {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 60px;
+
+  }
+
+  .descuento a {
+    width: 100%;
+    font-size: 12px;
+    top: 120px;
+    display: block;
+    position: absolute;
+  }  
+  .botonHamburguesa {
+    height: auto;
+  }
+  
+}
+
+.descuento {
+  background-color: #ede734;
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 30%;
+  bottom: 1.25rem;
+  left: 8%;
+  padding-top: 1.25rem;
+  padding-bottom: 10px;
+  color: #1F222A;
+  text-align: left;
+}
+
+.card p {
+  font-size: 25px;
+  margin: 10px;
+  color: #888;
+}
+
+.pie {
+  text-align: center;
+  font-size: 60px;
+  font-family: RoadRage;
+  color: black;
+  margin-bottom: -30px;
+}
+
+/* BOTONES REDES SOCIALES */
+.redes {
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+.sociales li {
+  list-style: none;
+  display: inline-block;
+}
+
+.sociales a {
+  padding: 10px;
+}
+
+/* FOOTER */
+.derechos {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+
+}
+
+.texto h2 { 
+  font-size: 80px;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  color: black;  
+}
+
+.texto p {
+font-size: 60px;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  color: black; 
+}
+
+/* CAJA DE CONTACTO */
+form {
+  width: 500px;
+  margin: auto;
+  text-align: left;
+  color: blue;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+/* BOTONES CAJA DE CONTACTO */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
