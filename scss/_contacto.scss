@@ -1,0 +1,68 @@
+/*------------MIXIN------------------*/
+
+@mixin relec {
+    background-color: $background-color_2;
+	color: $color_4;
+}
+
+@mixin cien {
+    display: block;
+	width: 100%;
+	padding: 12px 20px;
+}
+
+/*------------CONTACTO---------------*/
+
+form {
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	color: $color_2;
+	border-radius: 10px;
+	background-color: $background-color_1;
+}
+label {
+	display: block;
+	margin-top: 20px;
+	font-size: 18px;
+}
+input[type="text"] {
+	@include cien;   
+	margin-top: 8px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 18px;
+}
+input[type="email"] {
+	@include cien;
+	margin-top: 8px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 18px;
+}
+textarea {
+	@include cien;
+	margin-top: 8px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 18px;
+}
+input[type="submit"] {
+	@include relec;
+	padding: 14px 20px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type="reset"] {
+	@include relec;
+	padding: 14px 20px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}

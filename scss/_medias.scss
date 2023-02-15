@@ -1,0 +1,272 @@
+/*------------MEDIA---------------*/
+
+@media (min-width:1400px) {
+	.btn {
+		font-size: 2rem;
+	}
+	.carousel-caption {
+		h2 {
+			h4 {
+				font-size: 3rem;
+			}
+		}
+	}
+	.descuento {
+		p {
+			font-size: 20px !important;
+			padding-top: 80px;
+		}
+		a {
+			font-size: 20px !important;
+			top: 80px;
+			right: 1000px;
+		}
+	}
+	.imagenGaleria {
+		filter: grayscale(50%);
+		transition: all 0.3s ease;
+		&:hover {
+			filter: grayscale(0%);
+			transform: scale(1.03);
+		}
+	}
+}
+@media (min-width:1200px) {
+	.btn {
+		font-size: 25px;
+	}
+	.carousel-caption {
+		h2 {
+			h4 {
+				font-size: 3rem;
+			}
+		}
+	}
+	.txth2 {
+		font-size: 60px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.txtp {
+		font-size: 50px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.descuento {
+		p {
+			font-size: 20px;
+			padding-top: 80px;
+			padding-left: 50px;
+		}
+		a {
+			font-size: 20px;
+			top: 80px;
+			right: 100px;
+			position: absolute;
+		}
+	}
+}
+@media (min-width:900px) and (max-width:1199px) {
+	.txth2 {
+		font-size: 60px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.txtp {
+		font-size: 50px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.btn {
+		font-size: 1rem;
+	}
+	.carousel-caption {
+		h2 {
+			h4 {
+				font-size: 2rem;
+			}
+		}
+	}
+	.descuento {
+		p {
+			font-size: 18px;
+			padding-top: 80px;
+			padding-left: 10px;
+		}
+		a {
+			font-size: 14px;
+			top: 80px;
+			right: 40px;
+			position: absolute;
+		}
+	}
+	.polos {
+		padding-top: 40px;
+	}
+	.pMujeres {
+		padding-top: 60px;
+	}
+}
+@media (min-width:600px) and (max-width:899px) {
+	.textoH2 {
+		font-size: 24px !important;
+		text-align: center !important;
+		margin-bottom: 10px;
+		margin-top: -30px;
+		color: $color_3;
+		-webkit-text-stroke: 0.2px white;
+	}
+	.textoH4 {
+		font-size: 24px !important;
+		text-align: center !important;
+		margin-bottom: -30px;
+		color: $color_3;
+		-webkit-text-stroke: 0.2px white;
+	}
+	.boton {
+		font-size: 90% !important;
+		text-align: center !important;
+		width: 100%;
+		display: block;
+		margin-top: 50px;
+		position: relative;
+	}
+	.txth2 {
+		font-size: 45px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.txtp {
+		font-size: 30px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.polos {
+		padding-top: 50px;
+	}
+	.descuento {
+		p {
+			font-size: 18px;
+			text-align: center;
+			padding-top: 60px;
+		}
+		a {
+			font-size: 90%;
+			top: 120px;
+			position: absolute;
+			width: 100%;
+			display: block;
+		}
+	}
+}
+@media (min-width:350px) and (max-width:599px) {
+	.textoH2 {
+		font-size: 16px !important;
+		text-align: center !important;
+		margin-bottom: 10px;
+		margin-top: -50px;
+		color: $color_3;
+		-webkit-text-stroke: 0.2px white;
+	}
+	.textoH4 {
+		font-size: 16px !important;
+		text-align: center !important;
+		margin-bottom: -30px;
+		color: $color_3;
+		-webkit-text-stroke: 0.2px white;
+	}
+	.boton {
+		font-size: 12px !important;
+		text-align: center !important;
+		width: 100%;
+		display: block;
+		margin-top: 40px;
+	}
+	.txth2 {
+		font-size: 35px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.txtp {
+		font-size: 25px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.polos {
+		padding-top: 40px;
+	}
+	.pMujeres {
+		padding-top: 60px;
+	}
+	.descuento {
+		p {
+			font-size: 90%;
+			text-align: center;
+			padding-top: 60px;
+		}
+		a {
+			width: 100%;
+			font-size: 90%;
+			top: 120px;
+			display: block;
+			position: absolute;
+		}
+	}
+	.botonHamburguesa {
+		height: auto;
+	}
+}
+@media (max-width:349px) {
+	.textoH2 {
+		font-size: 13px !important;
+		text-align: center !important;
+		margin-bottom: 10px;
+		margin-top: -50px;
+		color: $color_3;
+		-webkit-text-stroke: 0.2px white;
+	}
+	.textoH4 {
+		font-size: 14px !important;
+		text-align: center !important;
+		margin-bottom: -30px;
+		color: $color_3;
+		-webkit-text-stroke: 0.2px white;
+	}
+	.boton {
+		font-size: 80% !important;
+		text-align: center !important;
+		width: 100%;
+		display: block;
+		margin-top: 40px;
+	}
+	.txth2 {
+		font-size: 30px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.txtp {
+		font-size: 20px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	.polos {
+		padding-top: 40px;
+	}
+	.pMujeres {
+		padding-top: 60px;
+	}
+	.descuento {
+		p {
+			font-size: 90%;
+			text-align: center;
+			padding-top: 30px;
+		}
+		a {
+			width: 100%;
+			font-size: 90%;
+			top: 110px;
+			display: block;
+			position: absolute;
+		}
+	}
+}
