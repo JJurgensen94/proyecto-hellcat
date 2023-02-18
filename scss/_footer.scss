@@ -1,15 +1,38 @@
-/*------------FOOTER---------------*/
+/*------------MIXIN------------------*/
 
-.derechos {
+@mixin colors {
     text-align: center;
     color: $color_1;
+    padding-bottom: 50px;
+}
+
+@mixin relec {
+    background-color: $background-color_2;
+    color: $color_4;
+
+}
+
+@mixin cien {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+}
+
+/*------------FOOTER---------------*/
+
+.creado {
+    @include colors;
+    font-size: 20px;
+}
+
+.derechos {
+    @include colors;
     font-size: 20px;
 }
 
 .pie {
-    text-align: center;
+    @include colors;
     font-size: 60px;
     font-family: $font-family_1;
-    color: $color_1;
     margin-bottom: -30px;
 }

@@ -1,15 +1,4 @@
-/*------------MIXIN------------------*/
 
-@mixin relec {
-    background-color: $background-color_2;
-	color: $color_4;
-}
-
-@mixin cien {
-    display: block;
-	width: 100%;
-	padding: 12px 20px;
-}
 
 /*------------CONTACTO---------------*/
 
@@ -20,11 +9,13 @@ form {
 	color: $color_2;
 	border-radius: 10px;
 	background-color: $background-color_1;
+	margin-bottom: 200px;
 }
 label {
 	display: block;
 	margin-top: 20px;
 	font-size: 18px;
+	padding-top: 30px;
 }
 input[type="text"] {
 	@include cien;   
@@ -65,4 +56,9 @@ input[type="reset"] {
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
+	margin-top: 40px;
+}
+
+.tallas {
+	padding-top: 30px;
 }

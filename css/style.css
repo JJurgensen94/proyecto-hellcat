@@ -23,13 +23,14 @@ h1 {
   padding: 5px;
 }
 
-.polos {
-  padding-top: 120px;
-}
-
 .botonHamburguesa {
   height: 5rem;
   width: 5rem;
+}
+
+/*------------MAIN------------------*/
+.polos {
+  padding-top: 40px;
 }
 
 .card p {
@@ -39,6 +40,10 @@ h1 {
 }
 
 /*------------CARRUSEL---------------*/
+.carrusel {
+  padding-top: 30px;
+}
+
 .carousel-caption {
   position: absolute;
   top: 30%;
@@ -50,6 +55,130 @@ h1 {
   text-align: left;
 }
 
+/*------------REDES---------------*/
+.redes {
+  text-align: center;
+  margin-bottom: -30px;
+  padding-bottom: 30px;
+}
+
+.sociales li {
+  list-style: none;
+  display: inline-block;
+}
+.sociales li a {
+  padding: 10px;
+}
+
+/*------------DESCUENTO---------------*/
+.descuento {
+  background-color: #ede734;
+  height: 180px;
+  width: 100%;
+  position: relative;
+}
+
+/*------------MIXIN------------------*/
+/*------------FOOTER---------------*/
+.creado {
+  text-align: center;
+  color: black;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.derechos {
+  text-align: center;
+  color: black;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.pie {
+  text-align: center;
+  color: black;
+  padding-bottom: 50px;
+  font-size: 60px;
+  font-family: roadRage;
+  margin-bottom: -30px;
+}
+
+/*------------CONTACTO---------------*/
+form {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  color: #0694DB;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  margin-bottom: 200px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+input[type=text] {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+input[type=email] {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  background-color: #0694DB;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  background-color: #0694DB;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.tallas {
+  padding-top: 30px;
+}
+
 /*------------MEDIA---------------*/
 @media (min-width: 1400px) {
   .btn {
@@ -57,6 +186,19 @@ h1 {
   }
   .carousel-caption h2 h4 {
     font-size: 3rem;
+  }
+  .txth2 {
+    font-size: 60px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    color: black;
+    padding-bottom: 30px;
+  }
+  .txtindexh2 {
+    font-size: 60px !important;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    color: black;
+    margin-top: 50px;
+    padding-bottom: 30px;
   }
   .descuento p {
     font-size: 20px !important;
@@ -75,6 +217,13 @@ h1 {
     filter: grayscale(0%);
     transform: scale(1.03);
   }
+  .txtp {
+    font-size: 50px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 @media (min-width: 1200px) {
   .btn {
@@ -88,10 +237,17 @@ h1 {
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     color: black;
   }
+  .txtindexh2 {
+    font-size: 60px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    color: black;
+  }
   .txtp {
     font-size: 50px;
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     color: black;
+    padding-top: 40px;
+    padding-bottom: 30px;
   }
   .descuento p {
     font-size: 20px;
@@ -107,6 +263,11 @@ h1 {
 }
 @media (min-width: 900px) and (max-width: 1199px) {
   .txth2 {
+    font-size: 60px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    color: black;
+  }
+  .txtindexh2 {
     font-size: 60px;
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     color: black;
@@ -146,6 +307,7 @@ h1 {
     text-align: center !important;
     margin-bottom: 10px;
     margin-top: -30px;
+    padding-bottom: 20px;
     color: #1F222A;
     -webkit-text-stroke: 0.2px white;
   }
@@ -165,6 +327,11 @@ h1 {
     position: relative;
   }
   .txth2 {
+    font-size: 45px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    color: black;
+  }
+  .txtindexh2 {
     font-size: 45px;
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     color: black;
@@ -195,6 +362,7 @@ h1 {
     font-size: 16px !important;
     text-align: center !important;
     margin-bottom: 10px;
+    padding-bottom: 20px;
     margin-top: -50px;
     color: #1F222A;
     -webkit-text-stroke: 0.2px white;
@@ -214,6 +382,11 @@ h1 {
     margin-top: 40px;
   }
   .txth2 {
+    font-size: 35px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    color: black;
+  }
+  .txtindexh2 {
     font-size: 35px;
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     color: black;
@@ -273,6 +446,11 @@ h1 {
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     color: black;
   }
+  .txtindexh2 {
+    font-size: 30px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    color: black;
+  }
   .txtp {
     font-size: 20px;
     font-family: "Sofia Sans Extra Condensed", sans-serif;
@@ -296,112 +474,6 @@ h1 {
     display: block;
     position: absolute;
   }
-}
-/*------------REDES---------------*/
-.redes {
-  text-align: center;
-  margin-bottom: -30px;
-}
-
-.sociales li {
-  list-style: none;
-  display: inline-block;
-}
-.sociales a {
-  padding: 10px;
-}
-
-/*------------DESCUENTO---------------*/
-.descuento {
-  background-color: #ede734;
-  height: 180px;
-  width: 100%;
-  position: relative;
-}
-
-/*------------FOOTER---------------*/
-.derechos {
-  text-align: center;
-  color: black;
-  font-size: 20px;
-}
-
-.pie {
-  text-align: center;
-  font-size: 60px;
-  font-family: roadRage;
-  color: black;
-  margin-bottom: -30px;
-}
-
-/*------------MIXIN------------------*/
-/*------------CONTACTO---------------*/
-form {
-  width: 50%;
-  margin: auto;
-  text-align: left;
-  color: #0694DB;
-  border-radius: 10px;
-  background-color: #F5F5F5;
-}
-
-label {
-  display: block;
-  margin-top: 20px;
-  font-size: 18px;
-}
-
-input[type=text] {
-  display: block;
-  width: 100%;
-  padding: 12px 20px;
-  margin-top: 8px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 18px;
-}
-
-input[type=email] {
-  display: block;
-  width: 100%;
-  padding: 12px 20px;
-  margin-top: 8px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 18px;
-}
-
-textarea {
-  display: block;
-  width: 100%;
-  padding: 12px 20px;
-  margin-top: 8px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 18px;
-}
-
-input[type=submit] {
-  background-color: #0694DB;
-  color: white;
-  padding: 14px 20px;
-  margin-top: 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=reset] {
-  background-color: #0694DB;
-  color: white;
-  padding: 14px 20px;
-  margin-top: 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
