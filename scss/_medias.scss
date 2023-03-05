@@ -58,6 +58,10 @@
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
+
+	.map-container {
+		width: 90%;
+	}
 }
 
 
@@ -107,7 +111,16 @@
 			right: 100px;
 			position: absolute;
 		}
+	}	
+	
+	form {
+		width: 70%;
 	}
+
+	.map-container {
+		width: 90%;
+	}
+
 }
 
 @media (min-width:900px) and (max-width:1199px) {
@@ -164,6 +177,15 @@
 	.pMujeres {
 		padding-top: 60px;
 	}
+
+	form {
+		width: 90%;
+	}
+
+	.map-container {
+		width: 90%;
+	}
+
 }
 
 @media (min-width:600px) and (max-width:899px) {
@@ -230,6 +252,14 @@
 			width: 100%;
 			display: block;
 		}
+	}
+
+	form {
+		width: 90%;
+	}
+
+	.map-container {
+		width: 90%;
 	}
 }
 
@@ -305,6 +335,14 @@
 	.botonHamburguesa {
 		height: auto;
 	}
+
+	form {
+		width: 90%;
+	}
+
+	.map-container {
+		width: 90%;
+	}
 }
 
 @media (max-width:349px) {
@@ -374,4 +412,9 @@
 			position: absolute;
 		}
 	}
+
+	form {
+		width: 90%;
+	}
+
 }
